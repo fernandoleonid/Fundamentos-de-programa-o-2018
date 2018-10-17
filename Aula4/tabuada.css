@@ -1,0 +1,16 @@
+fieldset {
+	border-radius: 10px;
+	background: #C8E8D5;
+	box-shadow: #000 5px 5px 20px;
+	width: 25%;
+}
+textarea{
+	height: 300;
+	width: 140;
+	border-radius: 5px;
+	font-size: 14px;
+}
+#criar{
+	margin: 5px;
+	width: 100%;
+}

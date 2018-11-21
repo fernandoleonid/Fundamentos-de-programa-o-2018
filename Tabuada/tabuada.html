@@ -3,85 +3,45 @@
 		<link rel="stylesheet" type="text/css" href="tabuada.css">
 	</head>
 	<body>
+      <header>
+         <h1>Tabuada dinâmica</h1>
+      </header>
+		<section class='container'>
+         <div class="tituloformulario">
+            <h1>Opções</h1>
+         </div>
+         <div class="formulario">
+            <label>Número:</label> 
+            <input type="text" id="numero"/>
+            <label>Mínimo:</label>
+            <input type="text" id="minimo"/> 
+            <label>Máximo:</label>  
+            <input type="text" id="maximo"/>
+         </div>
+		</section >
 
-		<center>
-		<fieldset>
-			<legend><h3>Opções</h3></legend>
-			<table>
-				<tr>
-					<td>
-						Número: 
-					</td>
-					<td>
-						<input type="text" id="numero"/>
-					</td>
-				</tr>
-				
-				<tr>
-					<td>
-						Mínimo:
-					</td>
-					<td>
-						<input type="text" id="minimo"/> 
-					</td>
-				</tr>
-
-				<tr>
-					<td>
-						Máximo:  
-					</td>
-					<td>
-						<input type="text" id="maximo"/>
-					</td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<input type="button" value='Criar Tabuadas' id="criar"/>
-					</td>
-				</tr>
-			</table>
-			</fieldset >
-
-			<fieldset> 
-				<legend><h3>Tabuadas</h3></legend>
-				<table>
-					<tr>
-						<th>
-							Adição
-						</th>
-						<th>
-							Subtração
-						</th>
-						<th>
-							Multiplicação
-						</th>
-						<th>
-							Divisão
-						</th>						
-						<th>
-							Exponenciação
-						</th>
-					</tr>
-					<tr>
-						<td align="center">
-							<textarea></textarea>
-						</td>
-						<td align="center">
-							<textarea></textarea>
-						</td>
-						<td align="center">
-							<textarea></textarea>
-						</td>
-						<td align="center">
-							<textarea></textarea>
-						</td>
-						<td align="center">
-							<textarea></textarea>
-						</td>
-					</tr>
-					
-				</table>
-			</fieldset>
+      <section class=containerListas>
+         <div>
+            <label>Adição</label>
+            <textarea></textarea>
+         </div>
+         <div>
+            <label>Subtração</label> 
+            <textarea></textarea>
+         </div>
+         <div>
+            <label>Multiplicação</label>
+            <textarea></textarea>
+         </div>
+         <div>
+            <label>Divisão</label>
+            <textarea></textarea>
+         </div>
+         <div>
+            <label>Exponenciação</label>
+            <textarea></textarea>
+         </div>
+      </section>
 
 	</body>
 </html>

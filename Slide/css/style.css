@@ -1,0 +1,69 @@
+.conteiner {
+   display: grid;
+   grid-template-columns: 1fr 15fr 1fr ;
+   width: 600px;
+   height: 400px;
+   margin: 50px auto ;
+}
+.conteiner div, #buttons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+img {
+   display: none;
+   max-width:100%;
+   max-height:100%;
+   width: auto;
+   height: auto;
+}
+
+.prev, .next {
+   display: flex;
+   width: 100%;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+   align-self: center;
+   border-radius: 10%;   
+}
+
+.prev{
+   position: relative;
+   left: 40px;
+}
+.next{
+   position: relative;
+   right: 40px;
+}
+
+.prev:hover,
+.next:hover{
+   background-color:rgba(0, 0, 0, 0.5);
+}
+
+.fadeIn {
+   animation-name: fadeIn;
+   animation-duration: 2s;
+}
+
+span{
+   border: none;
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   margin: 0 2px;
+   background: #bbb;
+   cursor: pointer;
+}
+
+span:hover{
+   background-color: #717171;
+}
+
+@keyframes fadeIn {
+   0% { opacity: 0.01; }
+   100% { opacity: 1; }
+   /* 0% { max-width: 1%; }
+   100% { max-width: 100%; } */
+}
